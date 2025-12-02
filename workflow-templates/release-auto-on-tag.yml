@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*.*.*'   # Only run on semver-like tags
 
+permissions:
+  contents: write
+
 jobs:
   publish:
     uses: karida-org/.github/.github/workflows/reusable-release-auto-on-tag.yml@v1
