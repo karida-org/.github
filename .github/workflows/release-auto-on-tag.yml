@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   publish:
-    uses: karida-org/.github/.github/workflows/reusable-release-auto-on-tag.yml@main
+    uses: karida-org/.github/.github/workflows/reusable-release-auto-on-tag.yml@v1
     secrets: inherit
     # Optional settings (uncomment to override defaults):
     # with:
