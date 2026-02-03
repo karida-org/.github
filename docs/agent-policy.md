@@ -36,3 +36,8 @@ gh pr create --title "<title>" --body "Fixes #<n>" --label "<label>"
 - Never commit secrets or private keys.
 - Avoid destructive git commands unless explicitly requested.
 - Keep changes minimal and aligned with existing patterns.
+
+## Code reviews
+
+- Check for review comments after opening PRs (including Codex and human reviewers).
+- Address feedback promptly and resolve review threads when the change is applied.
