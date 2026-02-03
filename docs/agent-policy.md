@@ -4,6 +4,12 @@ This document defines organization-wide guidance for AI agents working in Karida
 repositories. Repository-specific rules may extend this policy but should not
 conflict with it.
 
+Related org docs:
+
+- `docs/context-maintenance.md`
+- `docs/roadmap-workflow.md`
+- `docs/tooling.md`
+
 ## Issue-first workflow
 
 - Required for feature/bugfix work that affects user-facing behavior or touches multiple files.
