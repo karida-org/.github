@@ -37,11 +37,6 @@ gh pr create --title "<title>" --body "Fixes #<n>" --label "<label>"
 - Avoid destructive git commands unless explicitly requested.
 - Keep changes minimal and aligned with existing patterns.
 
-## Vue reactivity notes
-
-- If you use `shallowRef` for arrays/objects, avoid in-place mutation (`push`, `unshift`, `splice`).
-  Reassign the array/object instead (e.g., `items.value = [item, ...items.value]`), or use a deep `ref`.
-
 ## Code reviews
 
 - Check for review comments after opening PRs (including Codex and human reviewers).
