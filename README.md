@@ -4,6 +4,7 @@ This public repo holds Karida’s shared GitHub assets:
 
 - Organization profile content in `profile/`
 - Community health policies (Code of Conduct, contributing, support, security)
+- Organization-wide agent policy in `docs/agent-policy.md`
 - Shared pull request/issue templates
 - Reusable GitHub Actions workflow templates
 
