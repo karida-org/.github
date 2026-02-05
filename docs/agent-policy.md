@@ -10,6 +10,12 @@ Related org docs:
 - `docs/roadmap-workflow.md`
 - `docs/tooling.md`
 
+## Repository AGENTS.md files
+
+- Keep repo `AGENTS.md` focused on repo-specific guidance (commands, architecture, conventions, tests).
+- Do not copy org-wide policy into repo files; link to this document instead to avoid drift.
+- Repo rules may extend this policy but should be minimal and must not conflict.
+
 ## Issue-first workflow
 
 - Required for feature/bugfix work that affects user-facing behavior or touches multiple files.
