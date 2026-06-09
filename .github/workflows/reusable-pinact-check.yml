@@ -23,6 +23,9 @@ name: "[REUSABLE] Action Pinning Check"
 #   jobs:
 #     pinact:
 #       uses: karida-org/.github/.github/workflows/reusable-pinact-check.yml@v1
+#       # SHA-pin this ref in your repo: run pinact (or let the Action Pinning
+#       # Check guide you) to turn @v1 into "@<sha>  # v1"; Dependabot then keeps
+#       # it current. The floating @v1 above is only the copy-paste starting point.
 
 on:
   workflow_call:
