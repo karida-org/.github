@@ -9,4 +9,4 @@ This list covers tools used across Karida repositories.
 ## Recommended
 
 - OpenCode
-- Codex review
+- GitHub Copilot code review
